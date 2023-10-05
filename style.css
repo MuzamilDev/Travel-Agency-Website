@@ -1,0 +1,304 @@
+:root {
+    scroll-behavior: smooth;
+}
+.hero-img{
+   height: 600px;
+   width: 100%;
+   text-align: center;
+   background-image: linear-gradient(rgba(212, 212, 224,0.6),rgba(68,71,252,0.6)),url("https://images.pexels.com/photos/4327716/pexels-photo-4327716.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-size:cover;
+   display: inline-block;
+} 
+.position-div{
+   height: 180px;
+   width: 230px;
+   background-color: #333;
+}
+.position-div-links{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   border-bottom: 1px solid grey;
+   display: block;
+   cursor: pointer;
+
+}
+.position-div-links:hover{
+   background-color: lightslategray;
+   color: white;
+}
+.fa-arrow-down{
+   color: yellow;
+   font-size: 55px;
+   animation: amazing 0.6s;  
+   animation-direction: alternate;  
+   animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);  
+   animation-iteration-count: infinite;
+   cursor: pointer;
+}
+
+@keyframes amazing {  
+from {  
+ transform: translate3d(0, 0, 0);  
+}  
+to {  
+ transform: translate3d(0, 50px, 0); 
+}  
+} 
+
+.offers{
+   margin-top: 55px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+}
+.offers-one{
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   background-color: #333;
+}
+.offers-two{
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   background-color: #333;
+}
+.offers-three{
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   background-color: #333;
+}
+#learning-web-o{
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   display: block;
+   cursor: pointer;
+}
+#learning-web-t{
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   display: block;
+   cursor: pointer;
+}
+#learning-web-h{
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   display: block;
+   cursor: pointer;
+}
+#learning-web-f{
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   display: block;
+   cursor: pointer;
+}
+.learning-web:hover{
+   color: yellow;
+}
+.packages{
+   margin-top: 30px;
+   height: 700px;
+   width: 100%;
+   background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-size: cover;
+   background-attachment: fixed;
+   align-items: center;
+   justify-content: space-evenly;
+   display: flex;
+   position: relative;
+}
+#packages-1{
+   top:180px;
+   left: 85px;
+   height: 300px;
+   width: 300px;
+   background-color: rgb(165, 14, 9);
+   border: 7px dotted white;
+   border-radius: 50%;
+   animation: ani 15s;
+   animation-fill-mode: both;
+   animation-iteration-count: infinite;
+   position: absolute;
+}
+#packages-2{
+   top:180px;
+   left: 415px;
+   height: 300px;
+   width: 300px;
+   background-color: rgb(165, 14, 9);
+   border: 7px dotted white;
+   border-radius: 50%;
+   animation: ani 15s;
+   animation-fill-mode: both;
+   animation-iteration-count: infinite;
+   position: absolute;
+}
+#packages-3{
+   top:180px;
+   left: 755px;
+   height: 300px;
+   width: 300px;
+   background-color: rgb(165, 14, 9);
+   border: 7px dotted white;
+   border-radius: 50%;
+   animation: ani 15s;
+   animation-fill-mode: both;
+   animation-iteration-count: infinite;
+   position: absolute;
+}
+@keyframes ani {
+   0%{
+       transform: rotate(0deg);
+   }
+   100%{
+       transform: rotate(360deg);
+   }
+   
+}
+.package-1-content{
+   height: 450px;
+   width: 20%;
+   text-align: center;
+   background-color: lightblue;
+   position: relative;
+}
+.package-2-content{
+   height: 450px;
+   width: 20%;
+   text-align: center;
+   background-color: lightblue;
+   position: relative;
+}
+.package-3-content{
+   height: 450px;
+   width: 20%;
+   text-align: center;
+   background-color: lightblue;
+   position: relative;
+}
+#package-heading{
+   padding: 5px;
+   text-transform: uppercase;
+   color: white;
+   cursor: pointer;
+}
+#package-heading:hover{
+   color: yellow;
+}
+#package-one-img{
+   height: 300px;
+   width: 90%;
+}
+#package-two-img{
+   height: 300px;
+   width: 90%;
+}
+#package-three-img{
+   height: 300px;
+   width: 90%;
+}
+#booking-btn{
+   margin: 30px auto;
+   height: 40px;
+   width: 150px;
+   text-align: center;
+   background-color: #333;
+   color: white;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 8px 9px 14px black;
+}
+#booking-btn:hover{
+   color: yellow;
+   transform: scale(1.1);
+}
+.official-statment{
+   margin-top: 50px;
+   height: 70px;
+   width: 100%;
+   text-align: center;
+   background-color: rgba(128, 128, 128, 0.637);
+}
+.fa-heart{
+   color: red;
+}
+.top-button{
+   position: fixed;
+   right: 1rem;
+   bottom: 1rem;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: rgb(253, 255, 128) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+   box-shadow: 0 0.25rem 0.5rem 0 gray;
+   opacity: 0.7;
+}
+.top-button:hover {
+   opacity: 0.8;
+}
+.top-button:focus {
+   opacity: 0.9;
+}
+.top-button:active {
+  opacity: 1;
+}
+@media (max-width:991px) {
+   .offers{
+       display: block;
+   }
+   .offers-one{
+       margin-bottom: 20px;
+       display: block;
+       width: 50%;
+   }
+   .offers-two{
+       margin-bottom: 20px;
+       display: block;
+       width: 50%;
+   }
+   .offers-three{
+       margin-bottom: 20px;
+       display: block;
+       width: 50%;
+   }
+   .packages{
+       height: 250vh;
+       display: block;
+   }
+   #packages-1{
+       display: none;
+   }
+   #packages-2{
+       display: none;
+   }
+   #packages-3{
+       display: none;
+   }
+   .package-1-content{
+       margin-top: 20px;
+       margin-bottom: 20px;
+       display: block;
+       width: 75%;
+   }
+   .package-2-content{
+       margin-bottom: 20px;
+       display: block;
+       width: 75%;
+   }
+   .package-3-content{
+       margin-bottom: 20px;
+       display: block;
+       width: 75%;
+   }
+   .official-statment{
+       display: none;
+   }
+}
